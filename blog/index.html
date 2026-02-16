@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog | Estes Health Solutions - Health Insurance Insights by Jack Estes DeBrabander</title>
+  <meta name="description" content="Read the latest health insurance articles and guides from Jack Estes DeBrabander and Estes Health Solutions. Expert advice on choosing plans, small business benefits, Medicare, and more.">
+  <meta name="keywords" content="Estes Health Solutions blog, Jack Estes DeBrabander articles, Jack DeBrabander health insurance, health insurance guides, Medicare enrollment, small business health benefits">
+  <meta name="author" content="Jack Estes DeBrabander">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://esteshealthsolutions.com/blog/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Blog | Estes Health Solutions - Health Insurance Insights by Jack Estes DeBrabander">
+  <meta property="og:description" content="Expert health insurance articles and guides from Jack Estes DeBrabander. Estes Health Solutions blog covers individual plans, group benefits, Medicare, and more.">
+  <meta property="og:url" content="https://esteshealthsolutions.com/blog/">
+  <meta property="og:site_name" content="Estes Health Solutions">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://esteshealthsolutions.com/jack-estes-debrabander.png">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Blog | Estes Health Solutions">
+  <meta name="twitter:description" content="Expert health insurance articles and guides from Jack Estes DeBrabander and Estes Health Solutions.">
+  <meta name="twitter:image" content="https://esteshealthsolutions.com/jack-estes-debrabander.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="/styles.css">
+
+  <!-- Inline Styles for Blog Listing -->
+  <style>
+    .page-hero {
+      background: linear-gradient(135deg, #0d9488 0%, #0a7a70 60%, #065f56 100%);
+      padding: 160px 0 80px;
+      color: #fff;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .page-hero::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      right: -20%;
+      width: 500px;
+      height: 500px;
+      background: rgba(255, 255, 255, 0.04);
+      border-radius: 50%;
+    }
+    .page-hero h1 {
+      color: #fff;
+      font-size: 2.75rem;
+      margin-bottom: 16px;
+    }
+    .page-hero p {
+      color: rgba(255, 255, 255, 0.85);
+      font-size: 1.15rem;
+      max-width: 640px;
+      margin: 0 auto;
+    }
+    .page-hero .breadcrumb a,
+    .page-hero .breadcrumb span {
+      color: rgba(255, 255, 255, 0.6);
+    }
+    .page-hero .breadcrumb .current {
+      color: #fff;
+    }
+    .blog-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 32px;
+      padding: 80px 0;
+    }
+    .blog-card {
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+    .blog-card:hover {
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+      transform: translateY(-4px);
+    }
+    .blog-card-body {
+      padding: 28px 28px 32px;
+    }
+    .blog-card-meta {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 0.82rem;
+      color: #94a3b8;
+      margin-bottom: 14px;
+    }
+    .blog-card-meta .author {
+      color: #0d9488;
+      font-weight: 600;
+    }
+    .blog-card h2 {
+      font-size: 1.3rem;
+      margin-bottom: 12px;
+      line-height: 1.4;
+    }
+    .blog-card h2 a {
+      color: #1e293b;
+      text-decoration: none;
+    }
+    .blog-card h2 a:hover {
+      color: #0d9488;
+    }
+    .blog-card p {
+      font-size: 0.95rem;
+      line-height: 1.7;
+      color: #475569;
+      margin-bottom: 20px;
+    }
+    .blog-card .read-more {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: #0d9488;
+    }
+    .blog-card .read-more:hover {
+      gap: 10px;
+    }
+    .blog-card-tag {
+      display: inline-block;
+      padding: 4px 12px;
+      background: #f0fdfa;
+      color: #0d9488;
+      border-radius: 50px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      border: 1px solid rgba(13, 148, 136, 0.15);
+    }
+    @media (max-width: 768px) {
+      .page-hero {
+        padding: 130px 0 60px;
+      }
+      .page-hero h1 {
+        font-size: 2rem;
+      }
+      .blog-grid {
+        grid-template-columns: 1fr;
+        padding: 50px 0;
+      }
+    }
+  </style>
+
+  <!-- Structured Data: BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://esteshealthsolutions.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://esteshealthsolutions.com/blog/"
+      }
+    ]
+  }
+  </script>
+
+  <!-- Structured Data: CollectionPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Estes Health Solutions Blog",
+    "description": "Health insurance articles and guides by Jack Estes DeBrabander",
+    "url": "https://esteshealthsolutions.com/blog/",
+    "author": {
+      "@type": "Person",
+      "name": "Jack Estes DeBrabander",
+      "alternateName": "Jack DeBrabander",
+      "url": "https://jackestesdebrabander.com",
+      "sameAs": [
+        "https://www.linkedin.com/in/jack-estes-debrabander-b32a87391",
+        "https://www.linkedin.com/in/jack-debrabander-133595179",
+        "https://www.instagram.com/jackdebrabander/",
+        "https://x.com/jackdebrabander",
+        "https://www.tiktok.com/@jackdebrabander",
+        "https://www.chcbrokers.com/jackdebrabander",
+        "https://jackestesdebrabander.com",
+        "https://jackdebrabander.com"
+      ]
+    },
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "Estes Health Solutions",
+      "url": "https://esteshealthsolutions.com"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="/" class="navbar-brand">
+        <span class="brand-icon">EH</span>
+        Estes Health Solutions
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="/">Home</a>
+        <a href="/about/">About</a>
+        <a href="/services/">Services</a>
+        <a href="/blog/" class="active">Blog</a>
+        <a href="/contact/" class="nav-cta btn btn-primary">Contact Us</a>
+      </div>
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="/">Home</a>
+        <span>/</span>
+        <span class="current">Blog</span>
+      </div>
+      <h1>Health Insurance Insights</h1>
+      <p>Expert articles and guides from Jack Estes DeBrabander, founder of Estes Health Solutions. Stay informed on health insurance topics that matter to you and your family.</p>
+    </div>
+  </section>
+
+  <!-- Blog Listing -->
+  <section class="content-section">
+    <div class="container">
+      <div class="blog-grid">
+
+        <!-- Article 3: Medicare Enrollment Guide (newest first) -->
+        <article class="blog-card">
+          <div class="blog-card-body">
+            <div class="blog-card-meta">
+              <span class="blog-card-tag">Medicare</span>
+              <span>February 10, 2026</span>
+              <span>&middot;</span>
+              <span class="author">Jack Estes DeBrabander</span>
+            </div>
+            <h2><a href="/blog/medicare-enrollment-guide/">Medicare Enrollment Guide: What You Need to Know</a></h2>
+            <p>Jack Estes DeBrabander walks through Medicare Parts A through D, enrollment periods, supplemental options, and the key decisions that affect your coverage and costs in retirement.</p>
+            <a href="/blog/medicare-enrollment-guide/" class="read-more">Read full article &#8594;</a>
+          </div>
+        </article>
+
+        <!-- Article 2: Small Business Health Benefits -->
+        <article class="blog-card">
+          <div class="blog-card-body">
+            <div class="blog-card-meta">
+              <span class="blog-card-tag">Small Business</span>
+              <span>February 1, 2026</span>
+              <span>&middot;</span>
+              <span class="author">Jack DeBrabander</span>
+            </div>
+            <h2><a href="/blog/small-business-health-benefits/">Health Benefits for Small Businesses: A Complete Guide</a></h2>
+            <p>Jack DeBrabander explains how small businesses can offer competitive health benefits, navigate group plans, and take advantage of tax incentives to attract and retain top talent.</p>
+            <a href="/blog/small-business-health-benefits/" class="read-more">Read full article &#8594;</a>
+          </div>
+        </article>
+
+        <!-- Article 1: Choosing Right Health Insurance -->
+        <article class="blog-card">
+          <div class="blog-card-body">
+            <div class="blog-card-meta">
+              <span class="blog-card-tag">Health Insurance</span>
+              <span>January 20, 2026</span>
+              <span>&middot;</span>
+              <span class="author">Jack Estes DeBrabander</span>
+            </div>
+            <h2><a href="/blog/choosing-right-health-insurance/">How to Choose the Right Health Insurance Plan</a></h2>
+            <p>Jack Estes DeBrabander of Estes Health Solutions explains how to evaluate health insurance plans, what to look for in coverage, and the common mistakes that cost people money.</p>
+            <a href="/blog/choosing-right-health-insurance/" class="read-more">Read full article &#8594;</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container">
+      <h2>Have Questions About Health Insurance?</h2>
+      <p>Jack Estes DeBrabander and the Estes Health Solutions team are here to help. Schedule a free consultation to discuss your coverage needs.</p>
+      <div class="cta-buttons">
+        <a href="/contact/" class="btn btn-white btn-lg">Schedule a Consultation</a>
+        <a href="/services/" class="btn btn-accent btn-lg">Explore Our Services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>Estes Health Solutions</h3>
+          <p>Founded by Jack Estes DeBrabander, Estes Health Solutions provides expert health insurance consulting for individuals, families, and businesses across the United States.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/services/">Services</a></li>
+            <li><a href="/blog/">Blog</a></li>
+            <li><a href="/contact/">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="/services/">Individual Plans</a></li>
+            <li><a href="/services/">Group Insurance</a></li>
+            <li><a href="/services/">Medicare Guidance</a></li>
+            <li><a href="/services/">Insurance Consulting</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Jack Estes DeBrabander</h4>
+          <ul>
+            <li><a href="https://jackestesdebrabander.com" target="_blank" rel="noopener">jackestesdebrabander.com</a></li>
+            <li><a href="https://jackdebrabander.com" target="_blank" rel="noopener">jackdebrabander.com</a></li>
+            <li><a href="https://www.linkedin.com/in/jack-estes-debrabander-b32a87391" target="_blank" rel="noopener">LinkedIn Profile</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Estes Health Solutions. Founded by Jack Estes DeBrabander. All rights reserved.</p>
+        <p>
+          <a href="https://jackestesdebrabander.com" target="_blank" rel="noopener">jackestesdebrabander.com</a> &middot;
+          <a href="https://jackdebrabander.com" target="_blank" rel="noopener">jackdebrabander.com</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    // Mobile menu toggle
+    document.getElementById('mobileToggle').addEventListener('click', function() {
+      document.getElementById('navLinks').classList.toggle('active');
+    });
+
+    // Navbar scroll effect
+    window.addEventListener('scroll', function() {
+      var navbar = document.getElementById('navbar');
+      if (window.scrollY > 20) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+  </script>
+
+</body>
+</html>
