@@ -1,11 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url><loc>https://esteshealthsolutions.com/</loc><lastmod>2026-02-15</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
-    <url><loc>https://esteshealthsolutions.com/about/</loc><lastmod>2026-02-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://esteshealthsolutions.com/services/</loc><lastmod>2026-02-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-    <url><loc>https://esteshealthsolutions.com/contact/</loc><lastmod>2026-02-15</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-    <url><loc>https://esteshealthsolutions.com/blog/</loc><lastmod>2026-02-15</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
-    <url><loc>https://esteshealthsolutions.com/blog/choosing-right-health-insurance/</loc><lastmod>2026-01-20</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-    <url><loc>https://esteshealthsolutions.com/blog/small-business-health-benefits/</loc><lastmod>2026-02-01</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-    <url><loc>https://esteshealthsolutions.com/blog/medicare-enrollment-guide/</loc><lastmod>2026-02-10</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    <url>
+        <loc>https://esteshealthsolutions.com/</loc>
+        <lastmod>2026-02-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://esteshealthsolutions.com/jack-estes-debrabander-working.jpg</image:loc>
+            <image:title>Jack Estes DeBrabander - Estes Health Solutions Founder</image:title>
+            <image:caption>Jack Estes DeBrabander, founder of Estes Health Solutions, providing expert health insurance consulting and employee benefits</image:caption>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://esteshealthsolutions.com/about/</loc>
+        <lastmod>2026-02-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://esteshealthsolutions.com/jack-estes-debrabander-working.jpg</image:loc>
+            <image:title>Jack Estes DeBrabander - Estes Health Solutions Founder</image:title>
+            <image:caption>Jack Estes DeBrabander, founder of Estes Health Solutions, providing expert health insurance consulting and employee benefits</image:caption>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://esteshealthsolutions.com/services/</loc>
+        <lastmod>2026-02-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://esteshealthsolutions.com/jack-estes-debrabander-working.jpg</image:loc>
+            <image:title>Jack Estes DeBrabander - Estes Health Solutions Founder</image:title>
+            <image:caption>Jack Estes DeBrabander, founder of Estes Health Solutions, providing expert health insurance consulting and employee benefits</image:caption>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://esteshealthsolutions.com/contact/</loc>
+        <lastmod>2026-02-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://esteshealthsolutions.com/jack-estes-debrabander-working.jpg</image:loc>
+            <image:title>Jack Estes DeBrabander - Estes Health Solutions Founder</image:title>
+            <image:caption>Jack Estes DeBrabander, founder of Estes Health Solutions, providing expert health insurance consulting and employee benefits</image:caption>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://esteshealthsolutions.com/blog/</loc>
+        <lastmod>2026-02-15</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <image:image>
+            <image:loc>https://esteshealthsolutions.com/jack-estes-debrabander-working.jpg</image:loc>
+            <image:title>Jack Estes DeBrabander - Estes Health Solutions Founder</image:title>
+            <image:caption>Jack Estes DeBrabander, founder of Estes Health Solutions, providing expert health insurance consulting and employee benefits</image:caption>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://esteshealthsolutions.com/blog/choosing-right-health-insurance/</loc>
+        <lastmod>2026-01-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://esteshealthsolutions.com/jack-estes-debrabander-working.jpg</image:loc>
+            <image:title>Jack Estes DeBrabander - Estes Health Solutions Founder</image:title>
+            <image:caption>Jack Estes DeBrabander, founder of Estes Health Solutions, providing expert health insurance consulting and employee benefits</image:caption>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://esteshealthsolutions.com/blog/small-business-health-benefits/</loc>
+        <lastmod>2026-02-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://esteshealthsolutions.com/jack-estes-debrabander-working.jpg</image:loc>
+            <image:title>Jack Estes DeBrabander - Estes Health Solutions Founder</image:title>
+            <image:caption>Jack Estes DeBrabander, founder of Estes Health Solutions, providing expert health insurance consulting and employee benefits</image:caption>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://esteshealthsolutions.com/blog/medicare-enrollment-guide/</loc>
+        <lastmod>2026-02-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <image:image>
+            <image:loc>https://esteshealthsolutions.com/jack-estes-debrabander-working.jpg</image:loc>
+            <image:title>Jack Estes DeBrabander - Estes Health Solutions Founder</image:title>
+            <image:caption>Jack Estes DeBrabander, founder of Estes Health Solutions, providing expert health insurance consulting and employee benefits</image:caption>
+        </image:image>
+    </url>
 </urlset>
